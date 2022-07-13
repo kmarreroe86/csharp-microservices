@@ -1,34 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+    "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectUniqueName": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
         "projectName": "Play.Catalog.Contracts",
-        "projectPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
-        "packagesPath": "C:\\Users\\kmarrero\\.nuget\\packages\\",
-        "outputPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\obj\\",
+        "projectPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "packagesPath": "C:\\Users\\vaim-kmarrero\\.nuget\\packages\\",
+        "outputPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vaim-kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "J:\\dotnet\\dotnet5api\\microservices\\source\\packages": {},
+          "D:\\csharp\\microservices\\csharp-microservices\\sources\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,43 +55,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
-        "packagesPath": "C:\\Users\\kmarrero\\.nuget\\packages\\",
-        "outputPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Service\\obj\\",
+        "projectPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "packagesPath": "C:\\Users\\vaim-kmarrero\\.nuget\\packages\\",
+        "outputPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vaim-kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "J:\\dotnet\\dotnet5api\\microservices\\source\\packages": {},
+          "D:\\csharp\\microservices\\csharp-microservices\\sources\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
-                "projectPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj"
+              "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+                "projectPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj"
               }
             }
           }
@@ -139,7 +127,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

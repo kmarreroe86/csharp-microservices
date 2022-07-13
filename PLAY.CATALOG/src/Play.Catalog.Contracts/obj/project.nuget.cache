@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XKH7Txt+cMw2E66Mha4VvoJfRvlQ4ToI2AIZxdAPYDRXPgJDmpwEUlacPVkjrVh11GdgYp8sJQf0HAVrmdHUSw==",
+  "dgSpecHash": "vn9xzroc65791cL5O69c+9BfWnAdXOdoBer9/oZ7tb04VcVZuOXKI0VnECAPpFtBequ380kdCfWdvapK4SYeGw==",
   "success": true,
-  "projectFilePath": "J:\\dotnet\\dotnet5api\\microservices\\source\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+  "projectFilePath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\PLAY.CATALOG\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1656,35 +1656,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kmarrero\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\vaim-kmarrero\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.2",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\dotnet\\dotnet5api\\microservices\\source\\Play.Common\\Play.Common\\Play.Common.csproj",
+      "projectUniqueName": "D:\\csharp\\microservices\\csharp-microservices\\sources\\Play.Common\\Play.Common\\Play.Common.csproj",
       "projectName": "Play.Common",
-      "projectPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\Play.Common\\Play.Common\\Play.Common.csproj",
-      "packagesPath": "C:\\Users\\kmarrero\\.nuget\\packages\\",
-      "outputPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\Play.Common\\Play.Common\\obj\\",
+      "projectPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\Play.Common\\Play.Common\\Play.Common.csproj",
+      "packagesPath": "C:\\Users\\vaim-kmarrero\\.nuget\\packages\\",
+      "outputPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\Play.Common\\Play.Common\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\vaim-kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "J:\\dotnet\\dotnet5api\\microservices\\source\\packages": {},
+        "D:\\csharp\\microservices\\csharp-microservices\\sources\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1743,7 +1735,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
