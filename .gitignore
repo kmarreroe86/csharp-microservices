@@ -351,3 +351,8 @@ MigrationBackup/
 bin
 .vs
 bin
+bin
+obj
+obj
+.vs
+.vs

@@ -17,6 +17,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="J:\dotnet\dotnet5api\microservices\source\Play.Common\Play.Common\bin\Debug\net5.0\Play.Common.dll" target="lib\net5.0\Play.Common.dll" />
+    <file src="D:\csharp\microservices\csharp-microservices\sources\Play.Common\Play.Common\bin\Debug\net5.0\Play.Common.dll" target="lib\net5.0\Play.Common.dll" />
   </files>
 </package>
