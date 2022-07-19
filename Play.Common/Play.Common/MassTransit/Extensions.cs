@@ -25,6 +25,8 @@ namespace Play.Common.MassTransit
 
                     var rabbitMQSettings = configuration.GetSection(nameof(RabbitMQSettings)).Get<RabbitMQSettings>();
                     configurator.Host(rabbitMQSettings.Host);
+                    
+                    // Specify the prefix for the Queue
                     configurator.ConfigureEndpoints(context, new KebabCaseEndpointNameFormatter(serviceSettings.ServiceName, false));
                     configurator.UseMessageRetry(retryConfigurator =>
                     {

@@ -518,7 +518,7 @@
           "lib/net5.0/Play.Catalog.Contracts.dll": {}
         }
       },
-      "Play.Common/1.0.2": {
+      "Play.Common/1.0.3": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -1532,14 +1532,14 @@
         "play.catalog.contracts.nuspec"
       ]
     },
-    "Play.Common/1.0.2": {
-      "sha512": "Po6GyvdOEb2eyX8u+Q6NLBVtZJYY0cBkNATa1RVXzF48BcIi4Lu7y/l6MDgjfZhpjn6b4NWdZXzShczeXUhQRg==",
+    "Play.Common/1.0.3": {
+      "sha512": "kQM6CuvXKhB7CiASVlH/9OdwkpzvFXLpIF5XmoO4Lr7Gy2ykbg3dJJac5EgUFM59cyBHuNvHg0nA09FDcaPrgQ==",
       "type": "package",
-      "path": "play.common/1.0.2",
+      "path": "play.common/1.0.3",
       "files": [
         ".nupkg.metadata",
         "lib/net5.0/Play.Common.dll",
-        "play.common.1.0.2.nupkg.sha512",
+        "play.common.1.0.3.nupkg.sha512",
         "play.common.nuspec"
       ]
     },
@@ -2092,40 +2092,32 @@
     "net5.0": [
       "Microsoft.Extensions.Http.Polly >= 6.0.3",
       "Play.Catalog.Contracts >= 1.0.0",
-      "Play.Common >= 1.0.2",
+      "Play.Common >= 1.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kmarrero\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\vaim-kmarrero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\dotnet\\dotnet5api\\microservices\\source\\Play.Inventory\\Play.Inventory\\Play.Inventory.csproj",
+      "projectUniqueName": "D:\\csharp\\microservices\\csharp-microservices\\sources\\Play.Inventory\\Play.Inventory\\Play.Inventory.csproj",
       "projectName": "Play.Inventory",
-      "projectPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\Play.Inventory\\Play.Inventory\\Play.Inventory.csproj",
-      "packagesPath": "C:\\Users\\kmarrero\\.nuget\\packages\\",
-      "outputPath": "J:\\dotnet\\dotnet5api\\microservices\\source\\Play.Inventory\\Play.Inventory\\obj\\",
+      "projectPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\Play.Inventory\\Play.Inventory\\Play.Inventory.csproj",
+      "packagesPath": "C:\\Users\\vaim-kmarrero\\.nuget\\packages\\",
+      "outputPath": "D:\\csharp\\microservices\\csharp-microservices\\sources\\Play.Inventory\\Play.Inventory\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\vaim-kmarrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "J:\\dotnet\\dotnet5api\\microservices\\source\\packages": {},
+        "D:\\csharp\\microservices\\csharp-microservices\\sources\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2154,7 +2146,7 @@
           },
           "Play.Common": {
             "target": "Package",
-            "version": "[1.0.2, )"
+            "version": "[1.0.3, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -2179,7 +2171,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

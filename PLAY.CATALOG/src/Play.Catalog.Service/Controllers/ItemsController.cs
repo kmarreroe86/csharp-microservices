@@ -17,7 +17,7 @@ namespace Play.Catalog.Service.Controllers
 
         private readonly IRepository<Item> itemsRepository;
 
-        private readonly IPublishEndpoint publishEndpoint;
+        private readonly IPublishEndpoint publishEndpoint;  // MassTransit reference for publishing messages
 
         public ItemsController(IRepository<Item> itemsRepository, IPublishEndpoint publishEndpoint)
         {
@@ -57,7 +57,7 @@ namespace Play.Catalog.Service.Controllers
 
             await itemsRepository.CreateAsync(item);
 
-            await publishEndpoint.Publish(new CatalogItemCreated(item.Id, item.Name, item.Description));
+            await publishEndpoint.Publish(new CatalogItemCreated(item.Id, item.Name, item.Description));    // Send to RabbitMQ using MassTransit a CatalogItem was created
 
             return CreatedAtAction(nameof(GetByIdAsync), new { id = item.Id }, item);
         }
@@ -75,6 +75,7 @@ namespace Play.Catalog.Service.Controllers
 
             await itemsRepository.UpdateAsync(existingItem);
 
+            // Send to RabbitMQ using MassTransit a CatalogItem was updated
             await publishEndpoint.Publish(new CatalogItemUpdated(existingItem.Id, existingItem.Name, existingItem.Description));
 
             return NoContent();
@@ -88,6 +89,7 @@ namespace Play.Catalog.Service.Controllers
 
             await itemsRepository.DeleteAsync(existingItem.Id);
 
+            // Send to RabbitMQ using MassTransit a CatalogItem was removed
             await publishEndpoint.Publish(new CatalogItemDeleted(id));
 
             return NoContent();

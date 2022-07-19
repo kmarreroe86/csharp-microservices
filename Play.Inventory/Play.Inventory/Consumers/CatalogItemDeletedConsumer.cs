@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Play.Inventory.Consumers
 {
-    public class CatalogItemDeletedConsumer
+    public class CatalogItemDeletedConsumer : IConsumer<CatalogItemDeleted>
     {
         private readonly IRepository<CatalogItem> _repository;
 
@@ -15,7 +15,7 @@ namespace Play.Inventory.Consumers
             _repository = repository;
         }
 
-        public async Task Consume(ConsumeContext<CatalogItemUpdated> context)
+        public async Task Consume(ConsumeContext<CatalogItemDeleted> context)
         {
             var message = context.Message;
             var item = await _repository.GetAsync(message.itemId);
