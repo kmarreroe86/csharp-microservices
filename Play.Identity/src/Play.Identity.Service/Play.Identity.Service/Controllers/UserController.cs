@@ -40,5 +40,30 @@ namespace Play.Identity.Service.Controllers
 
             return Ok(user.AsDto());
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateAsync(Guid id, [FromBody] UpdateUserDto userDto)
+        {
+            var existingUser = await _userManager.FindByIdAsync(id.ToString());
+            if (existingUser == null) return NotFound();
+
+            existingUser.Email = userDto.Email;
+            existingUser.UserName = userDto.Email;
+            existingUser.Gil = userDto.Gil;
+            await _userManager.UpdateAsync(existingUser);
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(Guid id)
+        {
+            var existingUser = await _userManager.FindByIdAsync(id.ToString());
+            if (existingUser == null) return NotFound();
+
+            await _userManager.DeleteAsync(existingUser);
+
+            return NoContent();
+        }
     }
 }
