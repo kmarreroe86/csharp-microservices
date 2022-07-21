@@ -18,6 +18,9 @@ namespace Play.Inventory
 {
     public class Startup
     {
+
+        private const string AllowedOriginSettings = "AllowedOrigin";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -50,6 +53,13 @@ namespace Play.Inventory
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Play.Inventory v1"));
+
+                app.UseCors(builder =>
+                {
+                    builder.WithOrigins(Configuration[AllowedOriginSettings])
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+                });
             }
 
             app.UseHttpsRedirection();

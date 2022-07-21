@@ -12,13 +12,13 @@ namespace Play.Inventory.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ItemsControllers : ControllerBase
+    public class ItemsController : ControllerBase
     {
         private readonly IRepository<InventoryItem> invetoryItemsRepository;
 
         private readonly IRepository<CatalogItem> catalogItemsRepository;
 
-        public ItemsControllers(IRepository<InventoryItem> invetoryItemsRepository, IRepository<CatalogItem> catalogItemsRepository)
+        public ItemsController(IRepository<InventoryItem> invetoryItemsRepository, IRepository<CatalogItem> catalogItemsRepository)
         {
             this.invetoryItemsRepository = invetoryItemsRepository;
             this.catalogItemsRepository = catalogItemsRepository;
