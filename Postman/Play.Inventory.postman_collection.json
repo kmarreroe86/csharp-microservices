@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "1e477ee3-6654-4255-b95e-b090388bcc46",
+		"name": "Play.Inventory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21952705"
+	},
+	"item": [
+		{
+			"name": "api/Items Controllers",
+			"item": [
+				{
+					"name": "/api/ItemsControllers",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/api/Items?userId=11fe52f5-725d-4ef7-b0da-6aca239ab09b",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Items"
+							],
+							"query": [
+								{
+									"key": "userId",
+									"value": "11fe52f5-725d-4ef7-b0da-6aca239ab09b"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/api/ItemsControllers?userId=fd69127b-8e12-048d-1299-dbf93d7c6b6a",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"ItemsControllers"
+									],
+									"query": [
+										{
+											"key": "userId",
+											"value": "fd69127b-8e12-048d-1299-dbf93d7c6b6a"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n  {\n    \"catalogItemId\": \"urn:uuid:ef89a920-1e37-be9e-f683-83d2980e8bfb\",\n    \"name\": \"adipisicing amet est \",\n    \"description\": \"anim\",\n    \"quantity\": 21505710,\n    \"acquiredDate\": \"1969-08-27T23:18:05.179Z\"\n  },\n  {\n    \"catalogItemId\": \"80fcdcc7-52f1-1cb9-b6bc-9f682ac2de59\",\n    \"name\": \"qui est dolore\",\n    \"description\": \"qui consequat voluptate \",\n    \"quantity\": 21583607,\n    \"acquiredDate\": \"2017-08-11T05:01:37.904Z\"\n  }\n]"
+						}
+					]
+				},
+				{
+					"name": "/api/ItemsControllers",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "text/plain"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userId\": \"11fe52f5-725d-4ef7-b0da-6aca239ab09b\",\n  \"catalogItemId\": \"ed02958e-8ea6-4a3e-a3f4-bb4f0ad59824\",\n  \"quantity\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/Items",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"api",
+								"Items"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Success",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"userId\": \"urn:uuid:bbe26fa7-faef-591c-f95e-63061b03a17a\",\n  \"catalogItemId\": \"urn:uuid:bcb85e11-1aca-7244-f9f0-e75537fffdc9\",\n  \"quantity\": -11691857\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/api/ItemsControllers",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"api",
+										"ItemsControllers"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n  \"catalogItemId\": \"urn:uuid:5ea882c0-c44d-394a-d3e8-e817e420a0f7\",\n  \"name\": \"nisi esse\",\n  \"description\": \"et minim officia dolore non\",\n  \"quantity\": -96613801,\n  \"acquiredDate\": \"1960-08-01T13:10:14.760Z\"\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:5005",
+			"type": "string"
+		}
+	]
+}
